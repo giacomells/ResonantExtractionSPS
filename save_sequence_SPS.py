@@ -8,6 +8,7 @@ import xobjects as xo
 import xpart as xp
 import xtrack as xt
 from cpymad.madx import Madx
+import elements
 
 
 
@@ -41,7 +42,7 @@ mad.input(
 )
 
 
-mad.command.beam(particle="PROTON", pc=p, charge=1)
+mad.command.beam(particle="PROTON", pc=elements.p, charge=1)
 mad.input("BRHO = BEAM->PC * 3.3356;")
 mad.use(sequence="sps")
 
