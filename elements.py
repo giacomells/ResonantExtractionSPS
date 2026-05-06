@@ -1,6 +1,6 @@
 p = 400.0  # beam momentum (GeV/c)
 momentum = p  # beam momentum (GeV/c)
-Brho = p * 3.3356  # beam rigidity ???
+Brho = p * 3.3356  # beam rigidity (in T*m)
 
 
 # Define constants for the simulation
